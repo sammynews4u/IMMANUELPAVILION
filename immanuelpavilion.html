@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ImmanuelPavilion Services Limited | Driving Continuous Growth Across Real Estate, Facility Management & Automotive</title>
+  <meta name="description" content="ImmanuelPavilion Services Limited is a diversified enterprise delivering reliable solutions across Real Estate, Facility Management, Car Dealership, Merchandise & Support, and Marketing & Advertising in Lagos, Nigeria." />
+
+  <!-- Editorial & Institutional Typography (Comercio Partners Pairing) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#0B0D11',
+            charcoal: '#12161F',
+            alabaster: '#F9F8F6',
+            gold: {
+              DEFAULT: '#D4AF37',
+              bright: '#E5B822',
+              muted: '#AA8C2C'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            serif: ['Cormorant Garamond', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Institutional Hairlines & Subtle Micro-Interactions */
+    .editorial-grid-line {
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+    .sector-card-img {
+      transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .sector-card:hover .sector-card-img {
+      transform: scale(1.05);
+    }
+    .tab-btn-active {
+      background-color: #0B0D11;
+      color: #E5B822;
+      border-bottom: 2px solid #E5B822;
+    }
+  </style>
+</head>
+<body class="bg-alabaster text-obsidian font-sans antialiased selection:bg-gold-bright selection:text-obsidian flex flex-col min-h-screen">
+
+  <!-- =========================================================
+       1. TOP INSTITUTIONAL UTILITY BAR (COMERCIO PARTNERS STYLE)
+       ========================================================= -->
+  <div class="bg-obsidian text-slate-400 border-b border-white/10 text-[11px] tracking-wide py-2.5 px-4 sm:px-8">
+    <div class="max-w-[1320px] mx-auto flex flex-wrap justify-between items-center gap-3">
+      <div class="flex items-center gap-4">
+        <span class="text-gold-bright font-semibold uppercase tracking-widest">Immanuel Pavilion Services Limited</span>
+        <span class="hidden md:inline text-white/20">|</span>
+        <span class="hidden md:inline">Lekki-Ajah & Oniru Victoria Island, Lagos</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+2349061639852" class="hover:text-gold-bright transition-colors">+234 906 163 9852</a>
+        <a href="tel:+2349057184766" class="hidden sm:inline hover:text-gold-bright transition-colors">+234 905 718 4766</a>
+        <span class="text-white/20">|</span>
+        <a href="mailto:Immanuelpavilionservices@gmail.com" class="hover:text-gold-bright transition-colors">Immanuelpavilionservices@gmail.com</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       2. STICKY EXECUTIVE NAVIGATION BAR
+       ========================================================= -->
+  <header class="sticky top-0 z-50 bg-obsidian/95 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+      <div class="flex justify-between items-center h-20">
+
+        <!-- Circular Gold & Obsidian "IP" Particle Emblem (From PDF Slide 1) -->
+        <a href="#top" class="flex items-center gap-3.5 group">
+          <div class="w-12 h-12 rounded-full bg-obsidian border border-gold/40 flex items-center justify-center shadow-inner relative overflow-hidden">
+            <svg width="38" height="38" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#E5B822" opacity="0.85">
+                <circle cx="20" cy="28" r="2.2"/><circle cx="27" cy="24" r="1.8"/>
+                <circle cx="16" cy="38" r="2.0"/><circle cx="25" cy="36" r="2.8"/>
+                <circle cx="19" cy="48" r="2.4"/><circle cx="28" cy="46" r="3.0"/>
+                <circle cx="22" cy="58" r="2.5"/><circle cx="29" cy="56" r="3.2"/>
+                <circle cx="24" cy="68" r="2.2"/>
+              </g>
+              <path d="M48 18H74C86 18 94 26 94 37.5C94 49 86 57 74 57H54V44H71C76 44 80 41 80 37.5C80 34 76 31 71 31H48V18Z" fill="#E5B822"/>
+              <rect x="34" y="12" width="15" height="74" rx="1.5" fill="#E5B822"/>
+              <path d="M12 72C18 96 42 110 70 104C85 101 96 92 102 80C93 90 79 96 64 98C40 100 21 87 15 68L12 72Z" fill="#E5B822"/>
+            </svg>
+          </div>
+          <div>
+            <span class="block font-display font-extrabold text-sm sm:text-base tracking-[0.14em] text-gold-bright leading-none">IMMANUEL</span>
+            <span class="block font-display font-extrabold text-base sm:text-lg tracking-[0.08em] text-white leading-tight">PAVILION</span>
+            <span class="block text-[9px] font-semibold tracking-[0.24em] text-gold-muted uppercase leading-none">Services Limited</span>
+          </div>
+        </a>
+
+        <!-- Desktop Institutional Links -->
+        <nav class="hidden lg:flex items-center space-x-8 text-xs font-semibold uppercase tracking-widest text-slate-300">
+          <a href="#who-we-are" class="hover:text-gold-bright transition-colors py-2">Who We Are</a>
+          <div class="relative group">
+            <a href="#capabilities" class="hover:text-gold-bright transition-colors py-2 inline-flex items-center gap-1.5">
+              <span>Our Capabilities</span>
+              <span class="text-[10px]">▾</span>
+            </a>
+            <div class="absolute left-0 top-full pt-2 w-72 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div class="bg-charcoal border border-white/10 p-2 shadow-2xl divide-y divide-white/5">
+                <a href="#sector-01" class="block px-4 py-3 hover:bg-white/5 transition">
+                  <span class="text-[10px] text-gold-bright font-bold">SECTOR 01</span>
+                  <p class="text-xs font-bold text-white mt-0.5">Real Estate</p>
+                </a>
+                <a href="#sector-02" class="block px-4 py-3 hover:bg-white/5 transition">
+                  <span class="text-[10px] text-gold-bright font-bold">SECTOR 02</span>
+                  <p class="text-xs font-bold text-white mt-0.5">Facility Management</p>
+                </a>
+                <a href="#sector-03" class="block px-4 py-3 hover:bg-white/5 transition">
+                  <span class="text-[10px] text-gold-bright font-bold">SECTOR 03</span>
+                  <p class="text-xs font-bold text-white mt-0.5">Car Dealership</p>
+                </a>
+                <a href="#sector-04" class="block px-4 py-3 hover:bg-white/5 transition">
+                  <span class="text-[10px] text-gold-bright font-bold">SECTOR 04</span>
+                  <p class="text-xs font-bold text-white mt-0.5">Merchandise & Support</p>
+                </a>
+                <a href="#sector-05" class="block px-4 py-3 hover:bg-white/5 transition">
+                  <span class="text-[10px] text-gold-bright font-bold">SECTOR 05</span>
+                  <p class="text-xs font-bold text-white mt-0.5">Marketing & Advertising</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <a href="#fire-values" class="hover:text-gold-bright transition-colors py-2">F.I.R.E. Values</a>
+          <a href="#advantage" class="hover:text-gold-bright transition-colors py-2">Differentiators</a>
+          <a href="#leadership" class="hover:text-gold-bright transition-colors py-2">Management</a>
+          <a href="#partner" class="hover:text-gold-bright transition-colors py-2">Contact</a>
+        </nav>
+
+        <!-- Primary Action CTA (Comercio Partners "Speak To An Advisor!" Pattern) -->
+        <div class="hidden lg:flex items-center">
+          <a href="#partner" class="bg-gold-bright hover:bg-gold text-obsidian font-display font-extrabold text-xs uppercase tracking-widest px-6 py-3.5 rounded-sm transition-all">
+            Speak To An Advisor
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button onclick="document.getElementById('mobile-nav').classList.toggle('hidden')" class="lg:hidden text-white p-2 border border-white/15" aria-label="Open Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav" class="hidden lg:hidden bg-charcoal border-t border-white/10 px-6 py-5 space-y-3 text-xs font-bold uppercase tracking-widest text-white">
+      <a href="#who-we-are" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-2">Who We Are</a>
+      <a href="#capabilities" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-2">Our Capabilities (Sectors 01–05)</a>
+      <a href="#fire-values" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-2">F.I.R.E. Values</a>
+      <a href="#advantage" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-2">The ImmanuelPavilion Advantage</a>
+      <a href="#leadership" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-2">Executive Leadership</a>
+      <a href="#partner" onclick="document.getElementById('mobile-nav').classList.add('hidden')" class="block py-3 text-center bg-gold-bright text-obsidian">Partner With Us</a>
+    </div>
+  </header>
+
+  <main id="top" class="flex-grow">
+
+    <!-- =========================================================
+         3. EDITORIAL SPLIT HERO (COMERCIO PARTNERS ARCHITECTURE)
+         ========================================================= -->
+    <section class="bg-obsidian text-white border-b border-white/10 relative overflow-hidden">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8 py-20 lg:py-28">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+          <!-- Left Narrative Column -->
+          <div class="lg:col-span-7 space-y-7">
+            <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 border border-gold/40 bg-gold/5">
+              <span class="w-2 h-2 bg-gold-bright"></span>
+              <span class="text-[11px] font-display font-bold uppercase tracking-[0.2em] text-gold-bright">
+                Corporate Company Profile • Est. 2024
+              </span>
+            </div>
+
+            <h1 class="font-display font-extrabold text-4xl sm:text-6xl lg:text-[64px] tracking-tight leading-[1.06]">
+              Driving Continuous <span class="font-serif italic font-normal text-gold-bright">Growth.</span>
+            </h1>
+
+            <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
+              ImmanuelPavilion Services Limited is more than a service provider; we are your long-term growth partner. As a diversified enterprise delivering reliable solutions tailored to lifestyle and operational needs, we help individuals and organizations unlock value across Real Estate, Facility Management, Car Dealership, Corporate Procurement, and Strategic Marketing.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <a href="#capabilities" class="bg-gold-bright hover:bg-gold text-obsidian font-display font-extrabold text-xs uppercase tracking-widest px-8 py-4 rounded-sm transition-all">
+                Explore Our Capabilities →
+              </a>
+              <a href="#partner" class="border border-white/25 hover:border-gold-bright text-white hover:text-gold-bright font-display font-bold text-xs uppercase tracking-widest px-8 py-4 rounded-sm transition-all">
+                Partner With Us
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Architectural Sector Matrix -->
+          <div class="lg:col-span-5">
+            <div class="bg-charcoal border border-white/10 p-7 sm:p-9 relative">
+              <div class="flex items-center justify-between pb-5 mb-6 border-b border-white/10">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-bright">Business Verticals</span>
+                  <h2 class="font-display font-bold text-xl text-white mt-1">Our Core Services</h2>
+                </div>
+                <span class="text-xs font-mono text-slate-400">01 — 05</span>
+              </div>
+
+              <div class="divide-y divide-white/10">
+                <a href="#sector-01" class="py-4 flex items-center justify-between group">
+                  <div>
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gold-bright">Sector 01</span>
+                    <p class="font-display font-bold text-base text-white group-hover:text-gold-bright transition">Real Estate</p>
+                    <p class="text-xs text-slate-400">Property Sales & Rentals • Site Development • Investment Advisory</p>
+                  </div>
+                  <span class="text-gold-bright group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+
+                <a href="#sector-02" class="py-4 flex items-center justify-between group">
+                  <div>
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gold-bright">Sector 02</span>
+                    <p class="font-display font-bold text-base text-white group-hover:text-gold-bright transition">Facility Management</p>
+                    <p class="text-xs text-slate-400">Building Maintenance • Janitorial Services • Security Solutions</p>
+                  </div>
+                  <span class="text-gold-bright group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+
+                <a href="#sector-03" class="py-4 flex items-center justify-between group">
+                  <div>
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gold-bright">Sector 03</span>
+                    <p class="font-display font-bold text-base text-white group-hover:text-gold-bright transition">Car Dealership</p>
+                    <p class="text-xs text-slate-400">Premium Sales • Vehicle Sourcing • After-Sales Support</p>
+                  </div>
+                  <span class="text-gold-bright group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+
+                <a href="#sector-04" class="py-4 flex items-center justify-between group">
+                  <div>
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gold-bright">Sector 04</span>
+                    <p class="font-display font-bold text-base text-white group-hover:text-gold-bright transition">Merchandise & Support</p>
+                    <p class="text-xs text-slate-400">Procurement • Solar Power Installations • 3D Interiors</p>
+                  </div>
+                  <span class="text-gold-bright group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+
+                <a href="#sector-05" class="pt-4 flex items-center justify-between group">
+                  <div>
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gold-bright">Sector 05</span>
+                    <p class="font-display font-bold text-base text-white group-hover:text-gold-bright transition">Marketing & Advertising</p>
+                    <p class="text-xs text-slate-400">Targeted Strategies • Brand Exposure • Event Activation</p>
+                  </div>
+                  <span class="text-gold-bright group-hover:translate-x-1 transition-transform">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. WHO WE ARE & INTERACTIVE TABBED IDENTITY
+            (REPLICATING COMERCIOPARTNERS.COM OVERVIEW/VISION/VALUES TABS)
+         ========================================================= -->
+    <section id="who-we-are" class="py-24 bg-white border-b border-slate-200">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+          <!-- Left Column: Verified PDF Collaboration Image (Page 2 & Page 13 Source) -->
+          <div class="lg:col-span-6">
+            <div class="relative border border-slate-200 p-3 bg-alabaster">
+              <div class="aspect-[4/3] overflow-hidden bg-obsidian">
+                <img
+                  src="https://us.images.westend61.de/0002061416j/a-group-of-diverse-company-staff-in-an-informal-meeting-at-a-modern-office-reflecting-a-casual-yet-professional-atmosphere-the-scene-conveys-collaboration-and-teamwork-as-they-share-ideas-JLPSF35154.jpg"
+                  alt="ImmanuelPavilion Services Limited — Driving Continuous Growth"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="mt-3 flex items-center justify-between text-xs text-slate-500 px-1">
+                <span class="font-semibold uppercase tracking-widest text-obsidian">Who We Are</span>
+                <span>Established 2024 • Lagos, Nigeria</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Comercio Partners Style Interactive Tabs -->
+          <div class="lg:col-span-6 space-y-6">
+            <div>
+              <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-muted">
+                Who We Are
+              </span>
+              <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-obsidian mt-2 leading-tight">
+                A Diversified Enterprise Built on <span class="font-serif italic font-semibold">Action & Integrity.</span>
+              </h2>
+            </div>
+
+            <!-- Interactive Tab Triggers -->
+            <div class="flex flex-wrap border-b border-slate-200">
+              <button onclick="switchIdentityTab('overview')" id="tab-btn-overview" class="identity-tab-btn px-6 py-3.5 text-xs font-display font-bold uppercase tracking-widest tab-btn-active">
+                Overview
+              </button>
+              <button onclick="switchIdentityTab('mission')" id="tab-btn-mission" class="identity-tab-btn px-6 py-3.5 text-xs font-display font-bold uppercase tracking-widest text-slate-600 hover:text-obsidian">
+                Our Mission & Vision
+              </button>
+              <button onclick="switchIdentityTab('values')" id="tab-btn-values" class="identity-tab-btn px-6 py-3.5 text-xs font-display font-bold uppercase tracking-widest text-slate-600 hover:text-obsidian">
+                F.I.R.E. Values
+              </button>
+            </div>
+
+            <!-- Tab 1: Overview -->
+            <div id="tab-panel-overview" class="identity-tab-panel space-y-4 text-slate-700 leading-relaxed">
+              <p class="text-base sm:text-lg font-medium text-obsidian">
+                A diversified enterprise delivering reliable solutions tailored to lifestyle and operational needs.
+              </p>
+              <p class="text-sm sm:text-base">
+                ImmanuelPavilion Services Limited is a diversified service provider specializing in real estate, car dealership, and facility management. Established in 2024, the company is committed to delivering excellence through reliable solutions tailored to the lifestyle and operational needs of individuals and organizations.
+              </p>
+              <p class="text-sm sm:text-base">
+                With a bold vision to fearlessly deliver unique value, Immanuel Pavilion aligns constructive knowledge, responsibility, and action-oriented service to influence human development and unlock opportunities for clients across the industries it serves.
+              </p>
+            </div>
+
+            <!-- Tab 2: Mission & Vision -->
+            <div id="tab-panel-mission" class="identity-tab-panel hidden space-y-5">
+              <div class="p-6 bg-alabaster border-l-4 border-gold-bright">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-muted">Our Mission</span>
+                <h3 class="font-display font-extrabold text-xl text-obsidian mt-1">Delivering unique solutions creating real value.</h3>
+                <p class="text-sm text-slate-600 mt-2">
+                  To deliver unique solutions that create real value and drive continuous growth.
+                </p>
+              </div>
+              <div class="p-6 bg-obsidian text-white border-l-4 border-gold-bright">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-bright">Our Vision</span>
+                <h3 class="font-display font-extrabold text-xl text-white mt-1">Fearlessly delivering unique value globally.</h3>
+                <p class="text-sm text-slate-300 mt-2">
+                  To fearlessly deliver unique value by aligning constructive knowledge, responsibility, and action-oriented service to influence human development and unlock opportunities for clients in the real estate, facility management and car dealership industry.
+                </p>
+              </div>
+            </div>
+
+            <!-- Tab 3: Quick F.I.R.E. Values Preview -->
+            <div id="tab-panel-values" class="identity-tab-panel hidden">
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Fearless</p>
+                  <p class="text-xs text-slate-600 mt-1">Bold market leadership.</p>
+                </div>
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Integrity</p>
+                  <p class="text-xs text-slate-600 mt-1">Transparent client transactions.</p>
+                </div>
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Respect</p>
+                  <p class="text-xs text-slate-600 mt-1">Valuing every partnership.</p>
+                </div>
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Attitude</p>
+                  <p class="text-xs text-slate-600 mt-1">Solution-driven mindset.</p>
+                </div>
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Action</p>
+                  <p class="text-xs text-slate-600 mt-1">Fast, reliable execution.</p>
+                </div>
+                <div class="p-4 bg-alabaster border border-slate-200">
+                  <p class="font-display font-extrabold text-sm text-obsidian">Empowerment</p>
+                  <p class="text-xs text-slate-600 mt-1">Fostering human development.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. OUR FOUNDATION: F.I.R.E. VALUES (SLIDE 3 REPLICATION)
+         ========================================================= -->
+    <section id="fire-values" class="py-20 bg-alabaster border-b border-slate-200">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-muted">Our Foundation</span>
+            <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-obsidian mt-2">F.I.R.E. Values</h2>
+          </div>
+          <p class="text-sm text-slate-600 max-w-md mt-3 md:mt-0">
+            The six foundational pillars governing every transaction, partnership, and client engagement at ImmanuelPavilion.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 border-t border-l border-slate-200 bg-white">
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">01 / F</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Fearless</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Bold market leadership.</p>
+          </div>
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">02 / I</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Integrity</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Transparent client transactions.</p>
+          </div>
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">03 / R</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Respect</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Valuing every partnership.</p>
+          </div>
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">04 / A</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Attitude</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Solution-driven mindset.</p>
+          </div>
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">05 / A</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Action</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Fast, reliable execution.</p>
+          </div>
+          <div class="p-7 border-r border-b border-slate-200 hover:bg-obsidian hover:text-white transition group">
+            <span class="text-[11px] font-mono font-bold text-gold-muted group-hover:text-gold-bright">06 / E</span>
+            <h3 class="font-display font-extrabold text-xl mt-3">Empowerment</h3>
+            <p class="text-xs text-slate-600 group-hover:text-slate-300 mt-2">Fostering human development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. BUSINESS VERTICALS: OUR CORE SERVICES (SLIDES 4–9)
+            WITH VERIFIED PDF IMAGE URLS FROM SLIDE 13
+         ========================================================= -->
+    <section id="capabilities" class="py-24 bg-white border-b border-slate-200">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="max-w-3xl mb-16">
+          <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-muted">Business Verticals</span>
+          <h2 class="font-display font-extrabold text-4xl sm:text-5xl text-obsidian mt-2">
+            Our Core <span class="font-serif italic font-semibold">Services.</span>
+          </h2>
+          <p class="text-slate-600 text-base mt-3">
+            Specialized multi-sector capabilities engineered for individuals, property owners, and corporate institutions across Nigeria.
+          </p>
+        </div>
+
+        <div class="space-y-16">
+
+          <!-- SECTOR 01: REAL ESTATE (With Verified 103 CityPoint Image URL) -->
+          <article id="sector-01" class="sector-card grid grid-cols-1 lg:grid-cols-12 border border-slate-200 bg-alabaster overflow-hidden">
+            <div class="lg:col-span-6 overflow-hidden bg-obsidian min-h-[320px]">
+              <img
+                src="https://www.buildingenclosureonline.com/ext/resources/2025/10/06/Kingspan(16).webp?t=1759756834"
+                alt="Sector 01 — Real Estate (103 CityPoint Commercial & Residential Properties)"
+                class="sector-card-img w-full h-full object-cover"
+              />
+            </div>
+            <div class="lg:col-span-6 p-8 sm:p-12 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-gold-muted">Sector 01</span>
+                <h3 class="font-display font-extrabold text-3xl text-obsidian mt-1">Real Estate</h3>
+                <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                  We provide end-to-end real estate solutions, including property sales, rentals, Shortlets, land acquisition, valuation, and property management—guiding you through secure and profitable property transactions.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-slate-200">
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Property Sales & Rentals</h4>
+                    <p class="text-xs text-slate-600 mt-1">Residential and commercial properties, Shortlets & Property Management.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Site Development</h4>
+                    <p class="text-xs text-slate-600 mt-1">Secure land acquisition processes, Estate Surveyor and Valuation.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Investment Advisory</h4>
+                    <p class="text-xs text-slate-600 mt-1">Profitable property transaction guidance and ongoing construction (5-Bedroom Duplex with BQ).</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-5 border-t border-slate-200 flex items-center justify-between">
+                <button onclick="selectServiceInForm('Real Estate')" class="font-display font-extrabold text-xs uppercase tracking-widest text-obsidian hover:text-gold-muted">
+                  Explore Real Estate Solutions →
+                </button>
+                <span class="text-[11px] font-mono text-slate-400">01 / 05</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SECTOR 02: FACILITY MANAGEMENT (With Verified Facility Engineer Image URL) -->
+          <article id="sector-02" class="sector-card grid grid-cols-1 lg:grid-cols-12 border border-slate-200 bg-alabaster overflow-hidden">
+            <div class="lg:col-span-6 lg:order-2 overflow-hidden bg-obsidian min-h-[320px]">
+              <img
+                src="https://marshall-recruitment.co.uk/wp-content/uploads/2019/01/recrutiment-company-in-cambridge.jpg"
+                alt="Sector 02 — Facility Management"
+                class="sector-card-img w-full h-full object-cover"
+              />
+            </div>
+            <div class="lg:col-span-6 lg:order-1 p-8 sm:p-12 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-gold-muted">Sector 02</span>
+                <h3 class="font-display font-extrabold text-3xl text-obsidian mt-1">Facility Management</h3>
+                <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                  Integrated facility management solutions ensuring operational efficiency and environmental sustainability across residential and commercial buildings, including electrical, plumbing, and HVAC upkeep.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-slate-200">
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Building Maintenance</h4>
+                    <p class="text-xs text-slate-600 mt-1">Preventive and corrective solutions (Electrical, Plumbing & HVAC).</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Janitorial Services</h4>
+                    <p class="text-xs text-slate-600 mt-1">Clean environmental sustainability and commercial upkeep.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Security Solutions</h4>
+                    <p class="text-xs text-slate-600 mt-1">Complete access control coordination and safety management.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-5 border-t border-slate-200 flex items-center justify-between">
+                <button onclick="selectServiceInForm('Facility Management')" class="font-display font-extrabold text-xs uppercase tracking-widest text-obsidian hover:text-gold-muted">
+                  Discover Facility Management →
+                </button>
+                <span class="text-[11px] font-mono text-slate-400">02 / 05</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SECTOR 03: CAR DEALERSHIP (With Verified Mercedes S-Class & V-Class Showroom Image URL) -->
+          <article id="sector-03" class="sector-card grid grid-cols-1 lg:grid-cols-12 border border-slate-200 bg-alabaster overflow-hidden">
+            <div class="lg:col-span-6 overflow-hidden bg-obsidian min-h-[320px]">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/569384f8dc5cb46e49dfb415/5eaf5e7e-9df0-4a12-8381-9be295493ede/mercedes-s-class-v-class-premium-showroom-london.jpg"
+                alt="Sector 03 — Car Dealership Showroom"
+                class="sector-card-img w-full h-full object-cover"
+              />
+            </div>
+            <div class="lg:col-span-6 p-8 sm:p-12 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-gold-muted">Sector 03</span>
+                <h3 class="font-display font-extrabold text-3xl text-obsidian mt-1">Car Dealership</h3>
+                <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                  ImmanuelPavilion offers a trusted vehicle sourcing and dealership service specializing in the importation, sale, car modifications, car swapping, and delivery of both new and pre-owned vehicles.
+                </p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-slate-200">
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Premium Sales</h4>
+                    <p class="text-xs text-slate-600 mt-1">New and pre-owned vehicles, car swapping, and custom modifications.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Vehicle Sourcing</h4>
+                    <p class="text-xs text-slate-600 mt-1">Trusted international importation and nationwide delivery.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">After-Sales Support</h4>
+                    <p class="text-xs text-slate-600 mt-1">Registration, documentation, and auto financing assistance.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8 pt-5 border-t border-slate-200 flex items-center justify-between">
+                <button onclick="selectServiceInForm('Car Dealership')" class="font-display font-extrabold text-xs uppercase tracking-widest text-obsidian hover:text-gold-muted">
+                  Inquire About Vehicles →
+                </button>
+                <span class="text-[11px] font-mono text-slate-400">03 / 05</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- SECTOR 04 & SECTOR 05: DUAL ARCHITECTURAL SHOWCASE -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+            <!-- SECTOR 04: MERCHANDISE & SUPPORT -->
+            <article id="sector-04" class="border border-slate-200 bg-alabaster p-8 sm:p-10 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-gold-muted">Sector 04</span>
+                <h3 class="font-display font-extrabold text-2xl sm:text-3xl text-obsidian mt-1">Merchandise & Support</h3>
+                <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+                  Sourcing and supplying corporate and individual goods—including office supplies, electronics, home appliances, building materials, water treatment, safety equipment, and customized corporate gifts.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-slate-200">
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Procurement</h4>
+                    <p class="text-xs text-slate-600 mt-1">Essential office supplies, appliances & corporate gifts.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Technical</h4>
+                    <p class="text-xs text-slate-600 mt-1">Solar power & inverter installations, water treatment.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-obsidian">Creative</h4>
+                    <p class="text-xs text-slate-600 mt-1">Professional 3D interiors & commercial printing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8 pt-5 border-t border-slate-200 flex justify-between items-center">
+                <button onclick="selectServiceInForm('Merchandise & Support')" class="font-display font-extrabold text-xs uppercase tracking-widest text-obsidian hover:text-gold-muted">
+                  Request Procurement Quote →
+                </button>
+                <span class="text-[11px] font-mono text-slate-400">04 / 05</span>
+              </div>
+            </article>
+
+            <!-- SECTOR 05: MARKETING & ADVERTISING -->
+            <article id="sector-05" class="border border-obsidian bg-obsidian text-white p-8 sm:p-10 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-gold-bright">Marketing & Advertising</span>
+                <h3 class="font-display font-extrabold text-2xl sm:text-3xl text-white mt-1">
+                  Connecting your brand to the right audience.
+                </h3>
+                <p class="text-sm text-slate-300 mt-3 leading-relaxed">
+                  Using our active WhatsApp platform and a strong network of contacts, we connect your brand to the right audience exactly when you need it—sharing your message strategically and driving awareness.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-white/10">
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-gold-bright">Targeted</h4>
+                    <p class="text-xs text-slate-300 mt-1">Marketing strategies tailored to your timing and goals.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-gold-bright">Visibility</h4>
+                    <p class="text-xs text-slate-300 mt-1">High-reach brand exposure & public relations.</p>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-bold text-sm text-gold-bright">Promotion</h4>
+                    <p class="text-xs text-slate-300 mt-1">Strategic event activation and campaign delivery.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-8 pt-5 border-t border-white/10 flex justify-between items-center">
+                <button onclick="selectServiceInForm('Marketing & Advertising')" class="font-display font-extrabold text-xs uppercase tracking-widest text-gold-bright hover:underline">
+                  Launch A Brand Campaign →
+                </button>
+                <span class="text-[11px] font-mono text-slate-500">05 / 05</span>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. OUR DIFFERENTIATORS: THE IMMANUELPAVILION ADVANTAGE (SLIDE 10)
+         ========================================================= -->
+    <section id="advantage" class="py-20 bg-obsidian text-white border-b border-white/10">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="mb-12">
+          <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-bright">Our Differentiators</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-5xl mt-2">The ImmanuelPavilion Advantage</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t border-l border-white/10">
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Multi-industry expertise.</h3>
+              <p class="text-xs text-slate-400 mt-1">Proven cross-sector execution across real estate, automotive, facility management, and corporate supply.</p>
+            </div>
+          </div>
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Strong vendor network.</h3>
+              <p class="text-xs text-slate-400 mt-1">Direct partnerships with trusted suppliers, international vehicle exporters, and technical specialists.</p>
+            </div>
+          </div>
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Transparent service delivery.</h3>
+              <p class="text-xs text-slate-400 mt-1">Clear documentation, honest valuation, and full accountability at every stage of engagement.</p>
+            </div>
+          </div>
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Quality assurance guarantee.</h3>
+              <p class="text-xs text-slate-400 mt-1">Strict operational standards across construction sites, building maintenance, and vehicle handovers.</p>
+            </div>
+          </div>
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Personalized solutions.</h3>
+              <p class="text-xs text-slate-400 mt-1">Bespoke service packages tailored to your exact lifestyle, budget, and organizational timeline.</p>
+            </div>
+          </div>
+          <div class="p-8 border-r border-b border-white/10 flex items-start gap-4">
+            <span class="text-gold-bright font-mono font-bold text-sm">☑</span>
+            <div>
+              <h3 class="font-display font-bold text-lg text-white">Ongoing reliable support.</h3>
+              <p class="text-xs text-slate-400 mt-1">Dedicated post-transaction and after-sales support ensuring long-term peace of mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. MANAGEMENT: EXECUTIVE LEADERSHIP (SLIDE 11 + FULL BIOS)
+         ========================================================= -->
+    <section id="leadership" class="py-24 bg-alabaster border-b border-slate-200">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="mb-14">
+          <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-muted">Management</span>
+          <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-obsidian mt-2">Executive Leadership</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <!-- CEO Card -->
+          <article class="bg-white border border-slate-200 p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between pb-6 mb-6 border-b border-slate-200">
+                <div>
+                  <span class="text-xs font-mono font-bold uppercase tracking-widest text-gold-muted">Chief Executive Officer</span>
+                  <h3 class="font-display font-extrabold text-2xl text-obsidian mt-1">Osatohamen Emmanuel Clement</h3>
+                  <p class="text-xs font-semibold text-slate-500 mt-1">Visionary strategic leadership.</p>
+                </div>
+                <div class="w-14 h-14 bg-obsidian text-gold-bright font-display font-extrabold text-lg flex items-center justify-center">
+                  EC
+                </div>
+              </div>
+              <div class="space-y-3 text-sm text-slate-700 leading-relaxed">
+                <p>
+                  Osatohamen Emmanuel Clement is the visionary founder and Chief Executive Officer of ImmanuelPavilion Services Limited, a dynamic, multi-sector enterprise with operations spanning real estate, car dealership, facility management, and general merchandise.
+                </p>
+                <p>
+                  With a fearless approach to business and a strong belief in taking action, Emmanuel leads with purpose and vision—focused on creating real value and ensuring every client interaction results in a positive experience centered around integrity, responsiveness, and excellence.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Admin Manager Card -->
+          <article class="bg-white border border-slate-200 p-8 sm:p-10 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between pb-6 mb-6 border-b border-slate-200">
+                <div>
+                  <span class="text-xs font-mono font-bold uppercase tracking-widest text-gold-muted">Admin Manager</span>
+                  <h3 class="font-display font-extrabold text-2xl text-obsidian mt-1">Oyakhilome Francis Kingsley</h3>
+                  <p class="text-xs font-semibold text-slate-500 mt-1">Operational coordination focus.</p>
+                </div>
+                <div class="w-14 h-14 bg-obsidian text-gold-bright font-display font-extrabold text-lg flex items-center justify-center">
+                  FK
+                </div>
+              </div>
+              <div class="space-y-3 text-sm text-slate-700 leading-relaxed">
+                <p>
+                  Oyakhilome Francis Kingsley serves as the Admin Manager for ImmanuelPavilion, where he plays a vital role in ensuring smooth coordination and communication across our marketing and advertising activities.
+                </p>
+                <p>
+                  An active member and Family Head at Junior Chamber International Nigeria (JCIN) UNIBEN and Public Relations Officer for WCCCF UNIBEN, Oyakhilome is also a skilled graphic designer and video editor experienced in creating content for events, digital campaigns, and real estate promotions.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. PARTNER WITH US: DUAL OFFICES & INQUIRY ENGINE (SLIDE 12)
+         ========================================================= -->
+    <section id="partner" class="py-24 bg-white">
+      <div class="max-w-[1320px] mx-auto px-4 sm:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+          <!-- Left Column: Verified Offices & Direct Lines -->
+          <div class="lg:col-span-5 space-y-8">
+            <div>
+              <span class="text-xs font-display font-extrabold uppercase tracking-[0.2em] text-gold-muted">Connect With Us</span>
+              <h2 class="font-display font-extrabold text-3xl sm:text-5xl text-obsidian mt-2">Partner With Us</h2>
+              <p class="text-sm text-slate-600 mt-3">
+                Engage our advisory and operations teams at our Lekki-Ajah or Victoria Island offices.
+              </p>
+            </div>
+
+            <div class="bg-obsidian text-white p-8 space-y-6 border-t-4 border-gold-bright">
+              <div>
+                <span class="text-[11px] font-mono uppercase tracking-widest text-gold-bright">Direct Lines</span>
+                <p class="font-display font-bold text-lg mt-1">
+                  <a href="tel:+2349061639852" class="hover:text-gold-bright">+234 906 163 9852</a> |
+                  <a href="tel:+2349057184766" class="hover:text-gold-bright">+234 905 718 4766</a>
+                </p>
+              </div>
+
+              <div class="pt-4 border-t border-white/10">
+                <span class="text-[11px] font-mono uppercase tracking-widest text-gold-bright">Electronic Mail</span>
+                <a href="mailto:Immanuelpavilionservices@gmail.com" class="block text-sm text-slate-200 hover:text-gold-bright mt-1 break-all">
+                  Immanuelpavilionservices@gmail.com
+                </a>
+              </div>
+
+              <div class="pt-4 border-t border-white/10">
+                <span class="text-[11px] font-mono uppercase tracking-widest text-gold-bright">Lekki Office</span>
+                <p class="text-sm text-slate-300 mt-1">Dele Jaiyesimi Megamond estate, Ikota school, lekki Ajah</p>
+              </div>
+
+              <div class="pt-4 border-t border-white/10">
+                <span class="text-[11px] font-mono uppercase tracking-widest text-gold-bright">V.I. Office</span>
+                <p class="text-sm text-slate-300 mt-1">Adonai House All Adeniyi Coker Dideolu Estate, Oniru V.I Lagos</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Consultation & WhatsApp Form -->
+          <div class="lg:col-span-7">
+            <form id="partner-form" onsubmit="submitConsultation(event)" class="bg-alabaster border border-slate-200 p-8 sm:p-10 space-y-5" novalidate>
+              <h3 class="font-display font-extrabold text-2xl text-obsidian">Initiate A Client Mandate</h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Full Name *</label>
+                  <input type="text" id="fullName" required class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Phone / WhatsApp *</label>
+                  <input type="tel" id="phone" required class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Email Address *</label>
+                  <input type="email" id="email" required class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian" />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Business Vertical *</label>
+                  <select id="serviceDivision" required class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian">
+                    <option value="">Select Business Vertical...</option>
+                    <option value="Real Estate">Sector 01: Real Estate</option>
+                    <option value="Facility Management">Sector 02: Facility Management</option>
+                    <option value="Car Dealership">Sector 03: Car Dealership</option>
+                    <option value="Merchandise & Support">Sector 04: Merchandise & Support</option>
+                    <option value="Marketing & Advertising">Sector 05: Marketing & Advertising</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Preferred Office</label>
+                <select id="preferredOffice" class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian">
+                  <option value="Lekki Office (Dele Jaiyesimi Megamond estate, Ikota school, lekki Ajah)">Lekki Office — Dele Jaiyesimi Megamond Estate, Ikota</option>
+                  <option value="V.I. Office (Adonai House All Adeniyi Coker Dideolu Estate, Oniru V.I Lagos)">V.I. Office — Adonai House, Adeniyi Coker, Dideolu Estate, Oniru</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-obsidian mb-1.5">Mandate / Inquiry Details *</label>
+                <textarea id="message" rows="4" required class="w-full px-4 py-3.5 bg-white border border-slate-300 text-sm focus:outline-none focus:border-obsidian" placeholder="Describe your property, facility, vehicle, procurement, or campaign requirement..."></textarea>
+              </div>
+
+              <div id="partner-feedback" class="hidden p-4 text-xs font-semibold"></div>
+
+              <div class="flex flex-wrap gap-4 pt-2">
+                <button type="submit" class="bg-obsidian hover:bg-charcoal text-gold-bright font-display font-extrabold text-xs uppercase tracking-widest px-8 py-4 rounded-sm transition">
+                  Submit Mandate
+                </button>
+                <button type="button" onclick="dispatchWhatsApp()" class="bg-emerald-700 hover:bg-emerald-600 text-white font-display font-extrabold text-xs uppercase tracking-widest px-7 py-4 rounded-sm transition">
+                  Direct WhatsApp Advisory
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-obsidian text-slate-400 border-t border-white/10 py-12 text-xs">
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>© 2024–2026 ImmanuelPavilion Services Limited. All rights reserved.</p>
+      <p class="text-gold-bright font-mono">F.I.R.E. Values: Fearless • Integrity • Respect • Attitude • Action • Empowerment</p>
+    </div>
+  </footer>
+
+  <script>
+    function switchIdentityTab(tab) {
+      ['overview', 'mission', 'values'].forEach(id => {
+        document.getElementById('tab-panel-' + id).classList.add('hidden');
+        const btn = document.getElementById('tab-btn-' + id);
+        btn.classList.remove('tab-btn-active');
+        btn.classList.add('text-slate-600');
+      });
+      document.getElementById('tab-panel-' + tab).classList.remove('hidden');
+      const activeBtn = document.getElementById('tab-btn-' + tab);
+      activeBtn.classList.add('tab-btn-active');
+      activeBtn.classList.remove('text-slate-600');
+    }
+
+    function selectServiceInForm(serviceName) {
+      document.getElementById('serviceDivision').value = serviceName;
+      document.getElementById('partner').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('fullName').focus();
+    }
+
+    async function submitConsultation(e) {
+      e.preventDefault();
+      const feedback = document.getElementById('partner-feedback');
+      const payload = {
+        fullName: document.getElementById('fullName').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        serviceDivision: document.getElementById('serviceDivision').value,
+        preferredOffice: document.getElementById('preferredOffice').value,
+        message: document.getElementById('message').value.trim()
+      };
+
+      if (!payload.fullName || !payload.phone || !payload.email || !payload.serviceDivision || payload.message.length < 10) {
+        feedback.className = 'p-4 text-xs font-semibold bg-red-50 text-red-700 border border-red-200';
+        feedback.textContent = 'Please complete all required fields (minimum 10 characters in inquiry details).';
+        feedback.classList.remove('hidden');
+        return;
+      }
+
+      try {
+        await fetch('api/inquiry.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch (_) {}
+
+      feedback.className = 'p-4 text-xs font-semibold bg-emerald-50 text-emerald-900 border border-emerald-200';
+      feedback.textContent = 'Thank you, ' + payload.fullName + '. Your mandate for ' + payload.serviceDivision + ' has been logged for our team.';
+      feedback.classList.remove('hidden');
+      e.target.reset();
+    }
+
+    function dispatchWhatsApp() {
+      const name = document.getElementById('fullName').value.trim() || 'Prospective Partner';
+      const sector = document.getElementById('serviceDivision').value || 'Corporate Advisory';
+      const msg = document.getElementById('message').value.trim() || 'I would like to discuss a business mandate.';
+      const url = 'https://wa.me/2349061639852?text=' + encodeURIComponent(`Hello ImmanuelPavilion Services Limited,\n\nName: ${name}\nVertical: ${sector}\nMandate: ${msg}`);
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  </script>
+</body>
+</html>
